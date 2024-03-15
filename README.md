@@ -2,8 +2,6 @@
 
 <h2 align="center">Portfolio Project 2024</h2>
 
-<br>
-
 # 💡 Introducing Cronos
 
 Welcome to the landing page of our CronOS project
