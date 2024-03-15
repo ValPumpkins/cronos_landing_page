@@ -1,9 +1,7 @@
-<h1 align="center">⌛️ CronOS ⏳</h1>
-<h2 align="center">Portfolio Project 2024</h2>
-
 <img src="https://i.imgur.com/Zauoeua.png" alt="Cronos Logo" width="100%"/>
 
----
+<h2 align="center">Portfolio Project 2024</h2>
+
 <br>
 
 # 💡 Introducing Cronos
