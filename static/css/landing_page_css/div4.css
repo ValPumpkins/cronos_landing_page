@@ -1,0 +1,95 @@
+.div4 {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	background-color: rgba(76, 62, 85, 0.3);
+	width: 100%;
+	padding-bottom: 25px;
+}
+.about-content {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.about-us {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	align-items: start;
+	justify-content: center;
+	gap: 5rem;
+	margin-top: 25px;
+	margin-bottom: 60px;
+}
+.description p {
+	padding-bottom: 15px;
+	line-height: 1.6;
+}
+.team-title {
+	color: var(--main-color);
+}
+
+.about-name {
+	font-size: 2rem;
+	font-weight: bold;
+	color: var(--main-color);
+	text-align: center;
+}
+
+.olive,
+.valentine {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	/* width: 40rem; */
+}
+
+.olive h3,
+.valentine h3 {
+	font-size: 2.5rem;
+}
+
+.about_us_pic {
+	width: 20rem;
+	height: 20rem;
+	border-radius: 20rem;
+	background-color: rgba(145, 144, 144, 0.74);
+	box-shadow: 0 4px 9px 0 rgba(0, 0, 0, 0.4);
+	margin-bottom: 10px;
+}
+.about-text {
+	font-size: 2rem;
+	color: rgb(78, 78, 78);
+	width: 20rem;
+	width: 100%;
+	padding-top: 10px;
+	padding-bottom: 20px;
+}
+
+.about-links {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	gap: 20px;
+}
+.link-icon {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.about-icon {
+	width: 3.5rem;
+	height: 3.5rem;
+}
+.about-icon-linkedin {
+	filter: grayscale(100%);
+}
+.about-icon-github {
+	filter: contrast(25%);
+}
+.about-icon:hover {
+	filter: none;
+}

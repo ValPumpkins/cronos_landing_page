@@ -1,0 +1,150 @@
+@import url('variables.css');
+
+.header_auth {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+    font-size: 1.8rem;
+}
+
+.logo-menu {
+    align-self: center;
+    padding-left: 1rem;
+}
+.logo-menu ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    gap: 2rem;
+}
+.home-icon {
+    padding-top: 2px;
+}
+.landing-icon {
+    position: bottom;
+    height: 25px;
+    width: 25px;
+}
+.menu-active a {
+    color: var(--link-color);
+}
+.menu-inactive a {
+    color: rgb(187, 187, 187);
+}
+.logo-menu ul a {
+    font-family: var(--main-font-family);
+    text-decoration: none;
+    font-size: 1.2em;
+}
+.logo-menu ul a:hover {
+    color: var(--link-color);
+}
+
+.logo-menu img {
+    width: 12em;
+    padding-left: 5px;
+    padding-top: 3px;
+}
+
+#logo-small {
+    width: 3rem;
+}
+
+.user_auth {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+    padding-right: 15px;
+    gap: 1rem;
+}
+
+.user_auth p,
+.user_auth a {
+    color: var(--text-color);
+    font-family: var(--main-font-family);
+    margin: 0%;
+    text-decoration: none;
+    text-align: end;
+    font-size: 2rem;
+}
+
+#username {
+    min-width: 112px;
+}
+
+.user_auth p:hover,
+.user_auth a:hover {
+    color: var(--link-color);
+}
+.profile_pic_header {
+    width: 4.7rem;
+    height: 4.7rem;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+
+/* mobile */
+.header_auth-mobile {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    padding-right: 20px;
+    margin: 0px;
+    width: 100%;
+    font-size: 1.7rem;
+}
+.logo-menu-mobile {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    width: 100%;
+}
+.logo-menu-mobile ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: end;
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    gap: 2.5rem;
+}
+.logo-menu-mobile ul a {
+    font-family: var(--main-font-family);
+    text-decoration: none;
+    font-size: 1.2em;
+}
+.user_auth-mobile {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-bottom: 20px;
+    width: 100%;
+    gap: 7px;
+}
+.user_auth-mobile p,
+.user_auth-mobile a {
+    color: var(--text-color);
+    font-family: var(--main-font-family);
+    margin: 0%;
+    text-decoration: none;
+    text-align: end;
+    font-size: 2rem;
+}
+
+@media screen and (min-width: 2500px) {
+    .user_auth a {
+        font-size: 2.2rem;
+    }
+}

@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>CronOS</title>
+
+  <link rel="icon" href="static/img/CronOs_logo_Rond.ico">
+
+  <link rel="stylesheet" href="static/css/style.css" />
+  <link rel="stylesheet" href="static/css/header_auth.css" />
+  <link rel="stylesheet" href="static/css/landing_page_global.css" />
+  <link rel="stylesheet" href="static/css/landing_page_css/div1.css" />
+  <link rel="stylesheet" href="static/css/landing_page_css/div2.css" />
+  <link rel="stylesheet" href="static/css/landing_page_css/div3.css" />
+  <link rel="stylesheet" href="static/css/landing_page_css/div4.css" />
+  <link rel="stylesheet" href="static/css/landing_page_css/div5.css" />
+  <link href=" https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css " rel="stylesheet">
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="static/js/landing_page.js"></script>
+  <script src="static/js/landing_page_js/gallery_app.js"></script>
+  <script src="static/js/landing_page_js/gallery_web.js"></script>
+  <script src="static/js/landing_page_js/scroll_background.js"></script>
+  <script src="static/js/landing_page_js/header-behavior.js"></script>
+  <script src="static/js/landing_page_js/menu-link.js"></script>
+  <script src=" https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js "></script>
+</head>
+
+<body class="dark-mode">
+  <header class="header">
+    <div id="header_auth" class="header_auth">
+      <div id="logo-menu" class="logo-menu">
+        <ul id="landing-menu">
+          <li class="menu-active">
+            <a href="#landing-top">
+              <div class="landing-icon">
+                <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="ionicon-home"
+                viewBox="0 0 512 512">
+                  <path
+                  d="M80 212v236a16 16 0 0016 16h96V328a24 24 0 0124-24h80a24 24 0 0124 24v136h96a16 16 0 0016-16V212"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="32" />
+                  <path
+                  d="M480 256L266.89 52c-5-5.28-16.69-5.34-21.78 0L32 256M400 179V64h-48v69"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="32" />
+                </svg>
+              </div>
+            </a>
+          </li>
+          <li class="menu-inactive"><a href="#landing-web">Web</a></li>
+          <li class="menu-inactive"><a href="#landing-app">App</a></li>
+          <li class="menu-inactive"><a href="#landing-about">About</a></li>
+          <li class="menu-inactive"><a href="#landing-reviews">Reviews</a></li>
+        </ul>
+      </div>
+
+      <div id="user_auth" class="user_auth">
+        <p><a href="">Register</a></p>
+        <p>|</p>
+        <p><a href="">Login</a></p>
+      </div>
+    </div>
+  </header>
+
+  <div id="blurBackground"></div>
+
+  <main>
+    <div class="main-landing">
+      <div class="main-block div1" id="landing-top">
+        <div class="logo-img">
+          <img id="landing_logo" src="static/img/CronOs_logo-shadow.png" alt="logo">
+        </div>
+
+        <div class="logo-msg">
+          <div class="messages_container">
+            <ul class="messages_list">
+              <li>Our service simplifies computer automations</li>
+              <li>Personalized automations on your computer</li>
+              <li>Easy computer automations with our reliable service</li>
+              <li>Transform the way you manage tasks on your computer</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="logo-log">
+          <div class="log-register_login_div">
+            <button class="log-btn" id="log-register" type="submit">REGISTER</button>
+            <button class="log-btn" id="log-login" type="submit">LOGIN</button>
+          </div>
+        </div>
+
+        <div class="diagonal-gradient"></div>
+      </div>
+
+      <div class="main-block div2" id="landing-web">
+        <script>
+          $(document).ready(function () {
+            var splide = new Splide('.splide', {
+              type: 'loop',
+              perPage: 1,
+              autoplay: true,
+              speed: 1000
+            });
+            splide.mount();
+          });
+        </script>
+
+        <div class="div-title">
+          <h1>Our Website</h1>
+        </div>
+
+        <div class="div2-content">
+          <section id="image-carousel" class="splide" aria-label="Beautiful Images">
+            <div class="splide__track">
+              <ul class="splide__list">
+                <li class="splide__slide">
+                  <img class="carousel-slide" src="static/img/landing_page/landing_page_web_gallery/landing-dashboard.png" alt="Image 1">
+                </li>
+                <li class="splide__slide">
+                  <img class="carousel-slide" src="static/img/landing_page/landing_page_web_gallery/landing-register.png" alt="Image 2">
+                </li>
+                <li class="splide__slide">
+                  <img class="carousel-slide" src="static/img/landing_page/landing_page_web_gallery/landing-faq.png" alt="Image 4">
+                </li>
+              </ul>
+            </div>
+          </section>
+
+          <div class="prez-web-txt">
+            <h3>Create, delete, or pause cron jobs</h3>
+            <p>
+              You have just discovered the power of crons jobs,
+              but don't feel like immersing yourself in your computer's terminal ?
+            </p>
+            <p>
+              No problem, we're here to help !
+            </p>
+            <p>
+              Our website will give you all the information you need to get started,
+              and our intuitive dashboard and comprehensive documentation will guide
+              you through the proces
+            </p>
+            <p>
+              Then, no matter where you are, you can manage everything away
+              from your computer :
+            </p>
+            <p>
+              pause, create a new automation and even delete one !
+            </p>
+          </div>
+        </div>
+
+        <div id="lightbox" style="display: none;">
+          <div id="lightbox-content">
+            <img id="lightbox-img" src="empty" alt="Lightbox Image">
+            <span id="close-lightbox">&times;</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="main-block div3" id="landing-app">
+        <div class="div3-content">
+          <div class="diagonal-gradient-div2"></div>
+          <div class="div-title">
+            <h1>An app that links it all</h1>
+          </div>
+          <div class="prez-app">
+            <div class="prez-app-txt">
+              <h3>Cronos-Connect</h3>
+              <p>
+                Our Cronos-Connect application links the website to your computer
+              </p>
+              <p>
+                Once connected to the application, it will fetch your created,
+                deleted or paused automations from your dashboard, and incorporate,
+                delete or pause them on your personal computer
+              </p>
+              <p>
+                Download it, log in and let it do the work for you !
+              </p>
+            </div>
+            <div class="prez-app-img">
+              <div class="gallery-app">
+                <div class="gallery-app-img">
+                  <img src="static/img/landing_page/landing_page_app_gallery/gallery-img00.png" alt="app login page">
+                </div>
+                <div class="gallery-app-img">
+                  <img src="static/img/landing_page/landing_page_app_gallery/gallery-img01.png" alt="main page app">
+                </div>
+                <div class="gallery-app-img">
+                  <img src="static/img/landing_page/landing_page_app_gallery/gallery-img02.png" alt="clear logs page">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="diagonal-gradient-div3"></div>
+        </div>
+      </div>
+
+      <div class="main-block div4" id="landing-about">
+        <div class="about-content">
+          <div class="div-title">
+            <h1>About</h1>
+          </div>
+
+          <div class="description">
+            <p>
+              Our project grew out of experience gained during an internship,
+              when the idea of simplifying the management of scheduled tasks on a computer system was raised.
+              Initially envisioned as a cron management tool for internal use, we quickly
+              realized the potential of making this functionality accessible to a wider audience
+            </p>
+            <p>
+              The aim was to create an intuitive online service that would enable anyone to
+              schedule automated tasks on their computer, without the need for in-depth technical knowledge
+            </p>
+            <p>
+              Our team set about designing and developing this platform with the mission of simplifying
+              IT processes for everyone, while guaranteeing a fluid and secure user experience.
+            </p>
+            <p>
+              The result is a reliable, user-friendly service that enables everyone to maximize the efficiency
+              of their computer use, whatever their level of experience and technical skills
+            </p>
+
+          </div>
+
+          <div class="about-us">
+            <h2 class="team-title">Team CronOS</h2>
+            <div class="olive">
+              <img class="about_us_pic" src="static/img/landing_page/landing_page_about/olive.jpeg" alt="olive">
+              <h3 class="about-name">Olive</h3>
+              <div class="about-text">
+                <p>Holberton School Student</p>
+              </div>
+              <div class="about-links">
+                <a href="https://github.com/electrikbox" target="blank">
+                  <div class="link-icon">
+                    <img
+                    class="about-icon about-icon-github"
+                    src="static/img/landing_page/landing_page_about/github.png"
+                    alt="Github link for Olive">
+                  </div>
+                </a>
+                <a href="https://www.linkedin.com/in/olivier-tservrancx/" target="blank">
+                  <div class="link-icon">
+                    <img
+                    class="about-icon about-icon-linkedin"
+                    src="static/img/landing_page/landing_page_about/linkedin.png"
+                    alt="Linkedin link for Olive">
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="valentine">
+              <img class="about_us_pic" src="static/img/landing_page/landing_page_about/valentine1.png" alt="valentine">
+              <h3 class="about-name">Valentine</h3>
+              <div class="about-text">
+                <p>Holberton School Student</p>
+              </div>
+              <div class="about-links">
+                <a href="https://github.com/ValPumpkins" target="blank">
+                  <div class="link-icon">
+                    <img
+                    class="about-icon about-icon-github"
+                    src="static/img/landing_page/landing_page_about/github.png"
+                    alt="Gitbub link for Valentine">
+                  </div>
+                </a>
+                <a href="https://www.linkedin.com/in/valentine-quignon/" target="blank">
+                  <div class="link-icon">
+                    <img
+                    class="about-icon about-icon-linkedin"
+                    src="static/img/landing_page/landing_page_about/linkedin.png"
+                    alt="Linkedin link for Valentine">
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="main-block div5" id="landing-reviews">
+        <div class="reviews-content">
+          <div class="diagonal-gradient-div5"></div>
+          <div class="div-title">
+            <h1>Your opinion matters</h1>
+          </div>
+
+          <div class="description">
+            <p>
+              Explore authentic feedback from our users and discover how our service
+              has changed their lives, facilitating their daily tasks and helping
+              them achieve their goals
+            </p>
+            <p>
+              These stories reflect not only our customers' satisfaction,
+              but also the positive impact our product hashad on their daily lives
+            </p>
+            <p>
+              Immerse yourself in their inspiring stories and let them convince you !
+            </p>
+          </div>
+
+          <div class="all-reviews">
+            <div class="reviews">
+              <h3 class="review-name">Dr. Christina Y.</h3>
+              <img src="static/img/landing_page/landing_page_reviews/pic00.png" alt="pic1">
+              <div class="review-stars">⭐️⭐️⭐️⭐️⭐️</div>
+              <p>
+                Cronos is like the perfect scalpel in the operating theatre of life
+              </p>
+            </div>
+            <div class="reviews">
+              <h3 class="review-name">Jules W.</h3>
+              <img src="static/img/landing_page/landing_page_reviews/pic01.png" alt="pic2">
+              <div class="review-stars">⭐️⭐️⭐️⭐️⭐️</div>
+              <p>
+                This is pure quality, a one-way journey to ultimate efficiency
+              </p>
+            </div>
+            <div class="reviews">
+              <h3 class="review-name">Dr. Emmett B.</h3>
+              <img src="static/img/landing_page/landing_page_reviews/pic02.png" alt="pic2">
+              <div class="review-stars">⭐️⭐️⭐️⭐️⭐️</div>
+              <p>
+                It's like stepping back in time to an era where all your needs are instantly met
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p>
+      © Valentine & Olive |
+      <a href="https://www.holbertonschool.fr/" target="_blank">
+        HolbertonSchool
+      </a> 2024
+    </p>
+  </footer>
+
+</body>
+
+</html>
