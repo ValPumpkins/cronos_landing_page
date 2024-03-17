@@ -6,7 +6,7 @@ $(document).ready(function() {
     const blur = $('#blurBackground');
 
     if (scrollPosition > 1) {
-      blur.css('height', '50px');
+      blur.css('height', '70px');
       header.css('opacity', '0.7');
       header.css('transition', '0.5s');
       header.css('position', 'fixed');header.css('transition', '0.5s');
