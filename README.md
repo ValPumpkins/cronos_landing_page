@@ -10,8 +10,6 @@ Cronos is our end-of-first-year portfolio and aims to simplify the management of
 
 This page presents the main features of our product (the website and the client application), the birth of the project and the team behind Cronos, as well as a few reviews from satisfied customers
 
-<br>
-
 # 🔎 Features
 
 💨 A **[responsive page](https://valpumpkins.github.io/cronos_landing_page/)** that simply but effectively presents the product and what it can do for you. Whether in your browser or on your mobile, our [landing page](https://valpumpkins.github.io/cronos_landing_page/) remains functional and attractive !
