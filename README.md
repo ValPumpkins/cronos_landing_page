@@ -45,7 +45,7 @@ For an overview of the project itself, please, take a look at **[this presentati
 # 📡 Technologies used
 For this page, we used :
 
-<img src="https://i.imgur.com/VMxGCsF.png" title="logo:html, javascript and css" width="100%" />
+<img src="https://i.imgur.com/iLhQIRU.png" title="logo:html, javascript and css" width="100%" />
 
 <br>
 
