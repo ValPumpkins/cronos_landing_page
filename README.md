@@ -34,11 +34,13 @@ This page presents the main features of our product (the website and the client 
 
 To view our landing page, simply click on **[this link](https://valpumpkins.github.io/cronos_landing_page/)** in your web browser
 
+
+
 <br>
 
 # 👁️ Demo-Day
 
-For an overview of the project itself, please, take a look at **[this presentation](https://docs.google.com/presentation/d/11BWmuIlNjddTg8-kmVquacEXgRPU0YQoUmFQcpKq9H0/edit?usp=sharing)**. You can also take a look at the main github repository for [CronOS](https://github.com/electrikbox/Cronos)
+For an overview of the project itself, please, take a look at **[this presentation](https://docs.google.com/presentation/d/11BWmuIlNjddTg8-kmVquacEXgRPU0YQoUmFQcpKq9H0/edit?usp=sharing)**. You can also take a look at the main github repository for **[CronOS](https://github.com/electrikbox/Cronos)**
 
 <br>
 
