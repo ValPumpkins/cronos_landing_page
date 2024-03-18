@@ -36,7 +36,7 @@ To view our landing page, simply click on **[this link](https://valpumpkins.gith
 
 # 👁️ Demo-Day
 
-For an overview of the project itself, please, take a look at **[this presentation](https://docs.google.com/presentation/d/11BWmuIlNjddTg8-kmVquacEXgRPU0YQoUmFQcpKq9H0/edit?usp=sharing)**. You can also take a look at the main github repository for **[CronOS](https://github.com/electrikbox/Cronos)**
+For an overview of the project itself, please, take a look at **[this presentation](https://docs.google.com/presentation/d/11BWmuIlNjddTg8-kmVquacEXgRPU0YQoUmFQcpKq9H0/edit?usp=sharing)**. You can also take a look at the main github repository for **[CronOS](https://github.com/electrikbox/Cronos)** and at our **[video-demo](https://www.youtube.com/watch?v=8pNNHtyUKQk)**
 
 # 📡 Technologies used
 For this page, we used :
