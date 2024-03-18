@@ -58,3 +58,11 @@ Please, do not hesitate to contact us :
 🥁 **Olive t'Servrancx** on [Linkedin](https://www.linkedin.com/in/olivier-tservrancx/) and on [Github](https://github.com/electrikbox)
 
 🥦 Valentine Quignon [Linkedin](https://www.linkedin.com/in/valentine-quignon/) and on [Github](https://github.com/ValPumpkins)
+
+# 🙏 Acknowledgements
+
+To  all the C21 cohort : Christophe and Cassandra, Lucie and Michael ❤️ Thanks for this year with you all !
+
+To our friends and family, who have supported us in every sense of the word
+
+To the staff at Holberton France: thanks for the help and the croissants
