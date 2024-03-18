@@ -49,7 +49,7 @@ Please, do not hesitate to contact us :
 
 🥁 **Olive t'Servrancx** on [Linkedin](https://www.linkedin.com/in/olivier-tservrancx/) and on [Github](https://github.com/electrikbox)
 
-🥦 Valentine Quignon [Linkedin](https://www.linkedin.com/in/valentine-quignon/) and on [Github](https://github.com/ValPumpkins)
+🥦 **Valentine Quignon** on [Linkedin](https://www.linkedin.com/in/valentine-quignon/) and on [Github](https://github.com/ValPumpkins)
 
 # 🙏 Acknowledgements
 
