@@ -53,8 +53,8 @@ Please, do not hesitate to contact us :
 
 # 🙏 Acknowledgements
 
-To  all the C21 cohort : Christophe and Cassandra, Lucie and Michael ❤️ Thanks for this year with you all !
+To all the C21 cohort : ❤️ Christophe and Cassandra, Lucie and Michael ❤️ Thanks for this year with you all !
 
-To our friends and family, who have supported us in every sense of the word
+To our friends and family, who have supported us in every sense of the word (special thanks to **🎃 Mary Pumpkins** for help with the logo)
 
 To the staff at Holberton France: thanks for the help and the croissants
